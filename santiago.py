@@ -100,7 +100,7 @@ def get_inference_job(model_id, inference_id):
 	
 	image = None
 	if len(data["images"]):
-		image = data["images"][0]["url"]
+		image = data["images"][0]["uri"]
 
 	print(f"Inference ID: {inference_id}. State: {state}")
 
